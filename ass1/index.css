@@ -1,0 +1,92 @@
+/* stylize at least text and range slider in HTML (10pts)
+
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.canvas{
+    justify-content: center;
+    text-align:center;
+}
+
+.buttons{
+    margin-top: 20px;
+    width: 30vw;
+    display: flex;
+    text-align:center;
+    justify-content: space-evenly;
+}
+
+.slider{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+#linecap{
+    width: 40vw;
+    margin-left: 20px;
+    -webkit-appearance:none !important;
+    height: 2px;
+    background: black;
+    border: none;
+    outline: none;
+}
+
+
+#DrawB{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+}
+#DrawB:active {
+    background-color: rgb(165, 165, 165);
+}
+
+#EraseB{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+}
+#EraseB:active {
+    background-color: rgb(165, 165, 165);
+}
+
+#RedB{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+}
+#RedB:active{
+    background-color: rgb(255, 144, 144);
+}
+
+#GreenB{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+}
+#GreenB:active{
+    background-color: rgb(115, 248, 132);
+}
+
+#BlueB{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+}
+#BlueB:active{
+    background-color: rgb(105, 150, 255);
+}
